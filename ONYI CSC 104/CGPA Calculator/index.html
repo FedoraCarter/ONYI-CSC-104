@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">ONYI OYENE</div>
+        <h1>CGPA Calculator</h1>
+        <div class="calculator">
+            <label for="grades">Enter your grades (comma-separated):</label>
+            <input type="text" id="grades" placeholder="e.g., 3.5, 4.0, 3.7" required>
+
+            <label for="credits">Enter corresponding credits (comma-separated):</label>
+            <input type="text" id="credits" placeholder="e.g., 3, 4, 3" required>
+
+            <button onclick="calculateCGPA()">Calculate CGPA</button>
+
+            <h2 id="result"></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
